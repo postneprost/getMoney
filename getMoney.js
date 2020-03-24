@@ -50,13 +50,12 @@ function getMoney(sum, countMoney) {
     return money;
 }
 
-
 let testMoney = {
-    5000: 10,
-    1000: 10,
-    500: 10,
-    100: 10,
-    50: 10,
+    5000: 11,
+    1000: 11,
+    500: 11,
+    100: 11,
+    50: 11,
 }
 
 console.log(getMoney(66450, testMoney));
