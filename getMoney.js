@@ -44,18 +44,18 @@ function getMoney(sum, countMoney) {
     }
 
     function isBanknotesExist(countMoney, banknote) {
-        return ((banknote in countMoney) && (countMoney[banknote] != 0));
+        return (countMoney[banknote]);
     }
 
     return money;
 }
 
 let testMoney = {
-    5000: 11,
-    1000: 11,
-    500: 11,
-    100: 11,
-    50: 11,
+    5000: 10,
+    1000: 10,
+    500: 10,
+    100: 10,
+    50: 10,
 }
 
-console.log(getMoney(66450, testMoney));
+console.log(getMoney(64250, testMoney));
